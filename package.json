@@ -1,0 +1,11 @@
+{
+  "name": "AOC2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AarynSmith/AOC2020.git",
+  "author": "AarynSmith <4387096+AarynSmith@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
