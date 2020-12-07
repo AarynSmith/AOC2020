@@ -19,6 +19,7 @@ function part1(expenses) {
     }
   }
 }
+
 function part2(expenses) {
   for (x of expenses) {
     for (y of expenses) {
@@ -28,3 +29,5 @@ function part2(expenses) {
     }
   }
 }
+
+module.exports = {part1, part2};
