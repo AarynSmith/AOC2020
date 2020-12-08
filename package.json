@@ -6,6 +6,7 @@
   "author": "AarynSmith <4387096+AarynSmith@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.2.0",
     "mocha": "^8.2.1",
     "nodemon": "^2.0.6"
   }
