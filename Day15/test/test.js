@@ -6,13 +6,6 @@ const input = fs.readFileSync('./input', 'utf8')
   .split(',')
   .map(Number)
 
-suite.skip('other', function() {
-  this.timeout(0)
-  test('run other', function() {
-    idx.other(input);
-  })
-});
-
 suite('Stepped', () => {
   suite("0,3,6", () => {
     expected = {
