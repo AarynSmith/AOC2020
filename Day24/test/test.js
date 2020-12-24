@@ -113,7 +113,8 @@ suite('Part 2', () => {
       expect(idx.part2(example)).to.equal(expected);
     });
   })
-  suite("Input", () => {
+  suite("Input", function() {
+    this.timeout(0);
     test("Part 2", () => {
       part2 = idx.part2(input);
       console.log("Part 2:", part2);
